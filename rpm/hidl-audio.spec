@@ -12,7 +12,7 @@ This driver provides shared libraries needed by pulseaudio.
 
 %install
 mkdir -p $RPM_BUILD_ROOT/usr/libexec/droid-hybris/system/lib64/hw/
-cp $ANDROID_ROOT/hybris/hidl_audio/binaries/audio.hidl_compat.default.so $RPM_BUILD_ROOT/usr/libexec/droid-hybris/system/lib64/hw/audio.hidl_compat.default.so
+cp $ANDROID_ROOT/hybris/mw/hidl_audio/binaries/audio.hidl_compat.default.so $RPM_BUILD_ROOT/usr/libexec/droid-hybris/system/lib64/hw/audio.hidl_compat.default.so
 ln -s /apex/com.android.vndk.v30/lib64/libaudioroute.so $RPM_BUILD_ROOT/usr/libexec/droid-hybris/system/lib64/libaudioroute.so
 
 %files
